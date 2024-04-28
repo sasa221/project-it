@@ -1,0 +1,91 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    display: inline-block;
+    list-style-type: none ;
+    margin-bottom: 10px;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    color: rgb(119, 8, 41);
+    text-decoration: none;
+}
+p{
+    color: rgb(119, 8, 41);
+}
+.container{
+    max-width: 1900px;
+    margin-bottom: 400px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;}
+.head{
+    text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+main pre{
+    color: rgb(72, 72, 72);
+    width: auto;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    color: #601cfc;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30x;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: white;
+    width: 21.25em;
+    box-shadow: 0 5px  25px rgba( 1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7s ease ;
+}
+.card:hover{
+    transform: scale(1.1);
+}
+.icon {
+   text-align: center;
+}
+.info{
+    text-align: center;
+    letter-spacing: 1PX;
+}
+.info h3{
+    color: rgb(119, 8, 41);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info h4{
+    letter-spacing: 1px;
+}
